@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <solid android:color="@color/cardview_light_background" />
+    <stroke
+        android:width="1dip"
+        android:color="#D5D5D5" />
+  <corners
+      android:topRightRadius="50dp"
+      android:bottomRightRadius="50dp"
+      android:bottomLeftRadius="50dp"
+      android:topLeftRadius="50dp"
+      />
+
+    <!-- Make sure bottom and top padding match corner radius -->
+    <padding
+        android:bottom="10dip"
+        android:top="10dip" />
+</shape>

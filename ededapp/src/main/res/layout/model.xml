@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginBottom="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/listviewshape">
+
+
+        <TextView
+            android:id="@+id/nameTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:gravity="right|center_horizontal"
+            android:text="اسم المنتج"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#2D3672"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DateTXt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="150dp"
+            android:gravity="center_vertical"
+            android:text="الايام المتبقيه"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#2D3672"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="26dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginRight="260dp"
+            android:gravity="center_vertical"
+            android:text="الحاله"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="168dp"
+            app:srcCompat="@drawable/ic_timelapse_black_24dp" />
+
+        <ImageView
+            android:id="@+id/stateic"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="285dp" />
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="130dp"
+            android:background="#D5D5D5" />
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginTop="5dp"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/circle_shape"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/circle_product"
+
+            />
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+             />
+
+
+
+    </FrameLayout>
+
+</FrameLayout>

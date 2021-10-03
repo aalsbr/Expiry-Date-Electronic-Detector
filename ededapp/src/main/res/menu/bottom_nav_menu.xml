@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_home"
+        android:title="الرئيسيه"
+        android:icon="@drawable/ic_home_black_24dp" />
+
+    <item android:id="@+id/action_epiredproduct"
+        android:title="الطلبات "
+        android:icon="@drawable/ic_event_note_black_24dp" />
+    <item android:id="@+id/action_mostuse"
+        android:title="الاستهلاك"
+        android:icon="@drawable/ic_subject_black_24dp" />
+
+
+
+</menu>

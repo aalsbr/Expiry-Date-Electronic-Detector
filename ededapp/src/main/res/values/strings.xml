@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">EDED</string>
+    <string name="action_settings">Settings</string>
+    <string name="number22">الرقم</string>
+    <string name="empty_list">empty_list</string>
+    <string name="date">0123456789/</string>
+    <string name="title_activity_bottom_nav">bottom_nav</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="menu_search">home</string>
+    <string name="menu_settings">fav</string>
+    <string name="listproduct">listproduct</string>
+</resources>

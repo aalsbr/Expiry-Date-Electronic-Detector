@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/EDEDAPP.iml" filepath="$PROJECT_DIR$/.idea/EDEDAPP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/datepicker/EDEDAPP.datepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/datepicker/EDEDAPP.datepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ededapp/EDEDAPP.ededapp.iml" filepath="$PROJECT_DIR$/.idea/modules/ededapp/EDEDAPP.ededapp.iml" />
+    </modules>
+  </component>
+</project>
